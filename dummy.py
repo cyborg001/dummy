@@ -75,7 +75,7 @@ linea = fpath.readline()
 fpath.close()
 ciudades = fc.get_ciudades(path_ciudades)
 formato = formatear_hyp(linea,path_poligonos,ciudades)
-print formato[2]
+print (formato[2])
 salida = 'dummyX.dat'#r'X:\dummyX.dat' 
 fsalida = open(salida,'w')
 fsalida.write(formato[0])
@@ -101,7 +101,7 @@ else:
 s_salida = fc.ordenar(s_salida)    
 salida =""
 for n in s_salida:
-    print n
+    print(n)
     salida+=n
 fsalida.close()
     

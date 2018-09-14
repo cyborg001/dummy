@@ -1,4 +1,3 @@
-gistfile1.txt
 # -*- coding: utf-8 -*-
 """
 Created on Fri Sep 08 11:50:37 2017
